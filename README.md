@@ -10,6 +10,8 @@ This project is an implementation of the TaskFlow test, a MERN stack task manage
 - **Authentication**: JWT-based authentication
 - **State Management**: React Context API and localStorage
 
+- **JWT_Token Generator** node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
+
 ### Prerequisites
 - Node.js >v22
 - NPM >v10.9
