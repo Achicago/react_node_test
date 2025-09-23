@@ -14,7 +14,7 @@ function TaskForm({ addTask }) {
     <form onSubmit={handleSubmit} className="flex mb-4">
       <input
         type="text"
-        placeholder="Add new task"
+        placeholder="Add new task!"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         className="flex-1 border border-gray-300 rounded p-2 mr-2"
